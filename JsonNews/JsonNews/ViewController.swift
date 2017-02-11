@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tblvw: UITableView!
   
-  
+  // pull to refresh added
     var myarticles: [TableViewCell1]? = []
     
     override func viewDidLoad() {
