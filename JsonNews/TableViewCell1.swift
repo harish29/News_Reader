@@ -9,5 +9,14 @@
 import UIKit
 
 class TableViewCell1: NSObject {
+    
+    var headline: String?
+    var medesc: String?
+    var author: String?
+    var url: String?
+    var imageurl: String?
+    
+
+    
 
 }

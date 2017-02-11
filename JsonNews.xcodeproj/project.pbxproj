@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150EA78A1E48D1EE008DC199 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150EA7891E48D1EE008DC199 /* WebviewViewController.swift */; };
 		1560950E1E451E5D0026866A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560950D1E451E5D0026866A /* AppDelegate.swift */; };
 		156095101E451E5D0026866A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560950F1E451E5D0026866A /* ViewController.swift */; };
 		156095131E451E5D0026866A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156095111E451E5D0026866A /* Main.storyboard */; };
 		156095151E451E5D0026866A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156095141E451E5D0026866A /* Assets.xcassets */; };
 		156095181E451E5D0026866A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156095161E451E5D0026866A /* LaunchScreen.storyboard */; };
+		158933161E47D70600118A00 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158933151E47D70600118A00 /* TableViewCell1.swift */; };
+		15E3BC871E47DB060089787C /* cellviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3BC861E47DB060089787C /* cellviewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		150EA7891E48D1EE008DC199 /* WebviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
 		1560950A1E451E5D0026866A /* JsonNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1560950D1E451E5D0026866A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1560950F1E451E5D0026866A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		156095141E451E5D0026866A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		156095171E451E5D0026866A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		156095191E451E5D0026866A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		158933151E47D70600118A00 /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		15E3BC861E47DB060089787C /* cellviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellviewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				1560950D1E451E5D0026866A /* AppDelegate.swift */,
+				15E3BC861E47DB060089787C /* cellviewTableViewCell.swift */,
 				1560950F1E451E5D0026866A /* ViewController.swift */,
+				150EA7891E48D1EE008DC199 /* WebviewViewController.swift */,
 				156095111E451E5D0026866A /* Main.storyboard */,
 				156095141E451E5D0026866A /* Assets.xcassets */,
 				156095161E451E5D0026866A /* LaunchScreen.storyboard */,
+				158933151E47D70600118A00 /* TableViewCell1.swift */,
 				156095191E451E5D0026866A /* Info.plist */,
 			);
 			path = JsonNews;
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E3BC871E47DB060089787C /* cellviewTableViewCell.swift in Sources */,
+				150EA78A1E48D1EE008DC199 /* WebviewViewController.swift in Sources */,
 				156095101E451E5D0026866A /* ViewController.swift in Sources */,
 				1560950E1E451E5D0026866A /* AppDelegate.swift in Sources */,
+				158933161E47D70600118A00 /* TableViewCell1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				1560951E1E451E5D0026866A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
