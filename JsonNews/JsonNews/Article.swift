@@ -9,5 +9,11 @@
 import UIKit
 
 class Article: NSObject {
+    
+    var headline: String?
+    var desc : String?
+    var auth: String?
+    var img: String?
+    var url: String?
 
 }
